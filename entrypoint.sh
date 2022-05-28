@@ -1,3 +1,3 @@
 #!/bin/sh
 set -x
-python send_message.py
+python /send_message.py
