@@ -15,7 +15,7 @@ jobs:
         id: matrix-notification
         uses: tobiasge/action-send-matrix-message@v1
         with:
-            homeserver: 'https://matrix.kappa-velorum.net/'
+            homeserver: 'https://matrix.kappa-velorum.net'
             token: ${{ secrets.MATRIX_TOKEN }}
             channel: 'Channel ID'
             message: |
