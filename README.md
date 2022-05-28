@@ -1,6 +1,6 @@
-# "Sennd MAtrix Message" Github Action
+# "Send Matrix Message" Github Action
 
-This Github action sennd a message to a Matrix Channel
+This Github action send a message to a Matrix Channel
 
 ## Example workflow
 
