@@ -1,0 +1,26 @@
+name: 'Matrix channel message'
+description: 'Send a message to a matrix channel'
+author: 'Tobias Genannt'
+inputs:
+  homeserver:
+    description: 'The URL of the Matrix Homeserver'
+    required: true
+    default: 'https://matrix.org'
+  token:
+    description: 'Authentication token for the Matrix Homeserver'
+    required: true
+    default: ''
+  channel:
+    description: 'The channnel ID'
+    required: true
+    default: ''
+  message:
+    description: 'The message to send'
+    required: true
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'message-square'
+  color: 'purple'
