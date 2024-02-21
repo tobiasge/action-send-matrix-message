@@ -20,7 +20,7 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/tobiasge/action-send-matrix-message:v2'
 branding:
   icon: 'message-square'
   color: 'purple'
